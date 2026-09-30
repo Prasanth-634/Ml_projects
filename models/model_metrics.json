@@ -1,0 +1,42 @@
+{
+    "accuracy": 0.8928176795580111,
+    "precision": 0.5636363636363636,
+    "recall": 0.2980769230769231,
+    "f1_score": 0.389937106918239,
+    "confusion_matrix": [
+        [
+            777,
+            24
+        ],
+        [
+            73,
+            31
+        ]
+    ],
+    "total_rows": 4521,
+    "total_cols": 17,
+    "target_counts": {
+        "no": 4000,
+        "yes": 521
+    },
+    "numerical_cols": [
+        "age",
+        "balance",
+        "day",
+        "duration",
+        "campaign",
+        "pdays",
+        "previous"
+    ],
+    "categorical_cols": [
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "month",
+        "poutcome"
+    ]
+}
